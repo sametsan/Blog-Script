@@ -1,0 +1,466 @@
+body
+{
+background:  #888;
+margin : 0 0 0 0;
+color:#444444;
+font-family:Thoma, sans-serif;
+font-size:11px;
+height:100%;
+} 
+
+table
+{
+  font-size:11px;
+  border:0px solid #dDDDDD;
+}
+
+table tr
+{
+  border:1px solid #dDDDDD;
+}
+
+table tr td
+{
+  padding:3;
+  border:1px solid #dDDDDD;
+}
+
+
+form
+{
+  display:inline;
+}
+
+
+
+a
+{
+  text-decoration:none;
+  color:#008aff;  
+  
+}
+
+
+a:hover
+{
+  cursor:pointer;
+  text-decoration:underline;
+  color:#555555;
+}
+
+input,textarea,select
+{border:1px solid #DDDDDD;padding:3;margin:1;  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;background:#EFEFEF;
+  border-radius:3px;
+  
+}
+
+
+
+
+input:focus,textarea:focus,select:focus,input:hover,textarea:hover,select:hover
+{border:1px solid #5599ff;padding:3;margin:1;background:#EFEFEF;
+      -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius:3px;
+-moz-box-shadow: 0px 0px 4px #000;
+-webkit-box-shadow: 0px 0px 4px #000;
+box-shadow: 0px 0px 4px #000;
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+input[type="submit"],input[type="button"]
+{
+ border:1px solid #DDD;
+ font-weight:bold;
+background:url("dugme_arka.png");
+padding:4 8;
+margin:1;  
+-webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius:3px;
+font-size:11;
+cursor:pointer;
+}
+
+
+.temizle
+{
+clear:both;  
+}
+
+.koyu
+{
+  color:#008aff;
+  font-weight:bold;
+  font-size:11;
+}
+
+
+.kutu
+{
+ height:35;
+ border:1px solid #DDD;
+ width:880;
+ background:#EFEFEF;
+ 
+}
+
+.kutu-dugme,.kutu-dugme:hover
+{
+  float:left;
+ height:33;
+ padding:0 5;
+ line-height:3;
+ border:1px solid #DDD;
+ cursor:pointer;
+ background:#FFF;
+}
+
+.kutu-dugme:hover
+{
+ background:#88baFF; 
+ color:#FFF;
+}
+
+.dugme-kutu
+{
+  height:30;
+  border:1px solid #DDD;
+  
+}
+
+.dugme-kutu-dugme,.dugme-kutu-dugme:hover
+{
+  float:center;
+ height:28;
+ padding:0 10;
+ line-height:3;
+ border:1px solid #DDD;
+ cursor:pointer;
+ background:#FFF;
+}
+
+.dugme-kutu-dugme:hover
+{
+ background:#88baFF; 
+ color:#FFF;
+}
+
+
+.menu
+{
+
+ border:1px solid #DDDDDD;
+ background:#FFF;
+}
+
+.menu a ,.menu a:hover
+{ 
+ padding:5 10;
+ cursor:pointer;
+ color:#000000;
+ font-weight:bold;
+
+   background:#FFF;
+   float:left;
+}
+
+
+.menu a:hover
+{ 
+ background:#ddd;
+ text-decoration:none;
+}
+
+.menu-kullanici
+{
+ float:right;
+ font-size:12;
+ padding:5;
+}
+
+.dip
+{
+ padding:10;
+ margin:auto;
+ text-align:center;
+
+ font-weight:bold;
+  text-shadow: 1px 1px 1px #BBB;
+}
+
+.ana
+{
+ margin:auto;
+width:900;
+ background:#fff; 
+border:1px solid #EFEFEF;
+}
+
+.baslik
+{
+ background:#DDD; 
+
+ padding:10;
+ font-size:35;
+  border-bottom:1px solid #EFEFEF;
+   position:relative;
+
+}
+
+.baslik a
+{
+   color:#333;
+}
+
+
+.baslik-tema
+{
+ font-size:12;
+ float:right;
+ bottom:5;
+ right:10;
+ position:absolute;
+}
+
+.orta
+{
+  margin-top:10;
+ padding:5;
+ width:880;
+ float:left;
+ background:#FFFFFF;
+}
+
+.sag
+{
+width:180;
+ padding:5;
+ float:right;
+ background:#FFFFFF;
+border-left:1px solid #DDD;
+}
+
+.sol
+{
+border-right:1px solid #DDD;
+ padding:5;
+ float:left;
+ background:#FFFFFF;
+
+}
+
+
+.tablo
+{
+
+ display:block;
+ text-align:left;
+ padding:3;
+ margin-bottom:5;
+ width:100%;
+}
+
+.tablo-baslik
+{
+  font-size:12;
+  font-weight:bold;
+  text-align:left;
+    border-bottom:1px solid #DDDDDD;
+     text-shadow: 1px 1px 1px #BBB;
+     padding:3;
+}
+.tablo-baslik a
+{
+  font-weight:bold;
+}
+
+.tablo-baslik span
+{
+  float:right;
+  cursor:pointer;
+  background:#008aff;
+  color:#FFFFFF;
+}
+
+.tablo-orta
+{
+padding:1%;
+}
+
+.tablo-orta ul
+{
+padding:0;
+list-style:none;
+}
+
+.tablo-orta li
+{
+padding:5;
+border-bottom:1px solid #DDD;
+}
+
+.tablo-orta li .sag
+{
+float:right;
+}
+
+
+.tablo-liste
+{
+ display:block;
+ color:#555555;
+   padding:1%;
+}
+.tablo-liste-ic
+{
+  padding:1%;
+  background:url("tablo-liste.png");
+}
+.tablo-liste-ic a
+{
+  color:#FFFFFF;
+     text-shadow: 1px 1px #000;
+}
+.tablo-bilgiler
+{
+font-size:11;
+padding:1%;
+border-top:1px solid #DDDDDD;
+}
+
+.sayfala
+{
+   background:#FFFFFF;
+ padding:1%;
+ text-align:center;
+}
+.goruntu
+{
+ padding:1%;
+ float:left;
+ width:180;
+ text-align:center;
+ 
+}
+
+.kayit
+{
+  border:1px solid #EFEFEF;
+  background:#000000;
+height:420;
+  padding:2%;
+}
+
+.kayit-resim
+{
+ height:300; 
+}
+.kayit-baslik
+{
+  
+background:#222222;
+color:#FFFFFF;
+height:17;
+padding:1%;
+}
+.kayit-aciklama
+{
+background:#222222;
+color:#FFFFFF;
+padding:1%;
+ height:98; 
+}
+
+.veriler
+{
+ border:1px solid #DDDDDD;
+ background:url("kayit.png") no-repeat top right  #EFEFEF;
+text-align:left;
+padding:3;
+padding-top:10;
+}
+
+
+
+.arama
+{
+ border:1px solid #DDDDDD;
+ background:url("arama.png") no-repeat center center #EFEFEF;
+ padding:3;
+ text-align:center;
+}
+
+.arama h3
+{
+float:left;
+margin:left;
+   text-shadow: 1px 1px 1px #FFF;
+}
+
+
+.arama-girdi
+{  
+  background:#FFFFFF;
+}
+
+
+a,a:hover,input,textarea,select,.dugme,.menu-dugme,.menu-dugme-uzerinde,div,.arama-girdi,img
+{
+-webkit-transition: all 200ms linear; /*safari and chrome */
+-moz-transition: all 200ms linear; /* firefox */
+-o-transition: all 200ms linear; /* opera */
+transition: all 200ms linear; 
+}
+
+
+.karart
+{
+z-index:1;
+ position:absolute;
+ width:50%;
+ height:50%;
+top:20%;
+left:22%;
+text-align:center;
+padding:5;
+ visibility:hidden;
+ background:#FFF;
+ border:5px solid #999999;
+ padding:1%;
+}
+
+.resimler
+{
+padding:1;
+ height:95%;
+}
+
+.kayit_resimler
+{
+padding:1;
+overflow-y:scroll;
+ height:95%;
+}
+
+.liste,.liste:hover
+{border-bottom:1px solid #EFEFEF;width:100%;padding:5;cursor:pointer;}
+.liste:hover
+{background:#EFEFEF;}
+
+.liste a,.liste a:hover
+{padding:3;}
+.liste a:hover
+{background:#EFEFEF;}
+
+
+.ust_menu
+{padding:10 25;top:0;left:0;z-index:10;position:absolute;width:100%;background:url("../resim/menu_arka.png");}
+.ust_menu a,.ust_menu a:hover
+{padding:10;font-weight:bold;}
+.ust_menu a:hover
+{background:#DDD;}

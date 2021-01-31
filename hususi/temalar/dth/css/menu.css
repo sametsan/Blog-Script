@@ -1,0 +1,63 @@
+.menu
+{
+  background:url("../resim/menu_arka.png");
+  height:40;
+  padding:0 10;
+  width:980;
+  position:relative;
+  
+}
+
+.menu .arama
+{
+  position:absolute;
+  top:5;
+  right:4;
+  padding:2;
+  
+}
+.menu .dugme
+{ 
+  margin-top:13; 
+  float:left;
+  position:relative;
+  
+}
+.menu .dugme .liste
+{ 
+  display:none;
+  position:absolute;
+  top:16;
+  left:0;
+  background:#000;
+  z-index:3;
+  margin:0;
+  width:100;
+opacity:0;
+}
+.menu .dugme .liste a,.menu .dugme .liste a:hover
+{ 
+  display:block;
+padding:13 20;
+}
+
+.menu .dugme .liste a:hover
+{ 
+background:#F00;
+color:#FFF;
+}
+
+.menu .dugme a,.menu .dugme a:hover
+{  
+  font-weight:bold;
+  font-size:1.1em;  
+  padding:10 20;
+  color:#FFF;
+  
+}
+.menu .dugme a:hover
+{ 
+  background:#000; 
+  text-decoration:none;
+  
+}

@@ -1,0 +1,33 @@
+.tablo
+{
+  background:#fff;
+  border-bottom:1px solid #DDD;
+  position:relative;
+  
+}
+
+
+.tablo .ic
+{
+  padding:12;
+text-align:left;
+  
+}
+
+.tablo .ic h3{padding:1;margin:2;color:#F00;font-size:1.4em;}
+.tablo .ic h3 a{color:#F00;}
+.tablo .ic .resim{padding:4;width:260;height:200;float:left;margin:5;background:#DDD;border:1px solid #DDD;}
+.tablo .liste{position:relative;}
+.tablo .liste .ok{display:none;z-index:1;position:absolute;bottom:2;left:200;background:url("../resim/liok.png") ;width:20;height:20;}
+
+.tablo .li
+{
+  z-index:1;position:absolute;bottom:17;left:-50;
+  display:none;background:#FFF;border:10px solid #DDD;
+  padding:10;width:350;overflow-y:auto;
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius:10px;
+} 
+
+.tablo .li a,.tablo .li a:hover{color:#F00;padding:1;}

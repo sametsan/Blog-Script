@@ -1,0 +1,4 @@
+<?
+if(!yonetim())
+header("location:../");
+?> 

@@ -1,0 +1,504 @@
+
+
+body
+{
+background:url("../resim/arka.png")  repeat-x #555 fixed; 
+margin : 0 0 0 0;
+color:#555;
+font-family:sans-serif;
+font-size:0.6875em;
+height:100%;
+letter-spacing:0.2ex;
+} 
+
+ul
+{
+margin:0 0;
+}
+
+
+table
+{font-size:0.75em}
+
+form
+{
+  display:inline;
+}
+
+a
+{
+  text-decoration:none;
+  color:#000;  
+  cursor:pointer;
+  
+}
+
+
+a:hover
+{
+  cursor:pointer;
+  text-decoration:underline;
+  color:#F00;
+}
+
+input,textarea,select
+{
+padding:3 10;
+margin:1; 
+}
+
+
+
+
+.temizle
+{
+clear:both;  
+}
+
+
+
+
+@font-face {
+    font-family: 'arista';
+    src: url('arista/z_arista-webfont.eot');
+    src: url('arista/z_arista-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arista/z_arista-webfont.woff') format('woff'),
+         url('arista/z_arista-webfont.ttf') format('truetype'),
+         url('arista/z_arista-webfont.svg#zAristaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.eklenti
+{
+  width:250;
+}
+
+.eklenti-baslik
+{
+  width:240;
+  height:40;
+  text-transform:uppercase;
+  color:#FFF;
+  background:url("../resim/eklenti_baslik.png") no-repeat;
+  font-weight:bold;
+  line-height:3;
+  font-size:1.2em;
+  padding-left:10;
+}
+
+.eklenti-orta
+{
+  padding:5;
+  
+}
+
+.eklenti-orta ul{padding:0 20;margin:0;}
+
+.eklenti-liste,.eklenti-liste:hover
+{
+  height:40;
+  padding:1;
+  border-bottom:1px solid #DDD;
+  display:block
+}
+
+.eklenti-liste:hover
+{
+background:#EFEFEF;
+text-decoration:none;
+color:#000;
+}
+
+.giris
+{padding:2;}
+
+.giris input[type=image]
+{
+  margin:0;
+  padding:0;
+}
+
+.dip
+{
+  height:180;
+  margin-top:20;
+  border-top:1px solid #DDD;
+  background:url("../resim/bas.png");
+  color:#555;
+ padding:5 10;
+ text-align:center;
+ font-weight:bold;
+}
+
+.dip-govde
+{
+ margin:auto;
+ width:980;
+ height:180;
+  line-height:2;
+}
+
+.dip-facebook
+{
+ width:400;
+ height:170;
+ float:left;
+}
+
+.dip-imza
+{
+ width:420;
+ height:170;
+ float:left;
+ line-height:2;
+}
+
+.dip-rss
+{
+ width:150;
+ height:170;
+ float:left;
+}
+
+
+.ana
+{
+ width:950;
+text-align:left;
+padding:2;
+-webkit-border-radius: 7px;
+-moz-border-radius:7px;
+border-radius:7px; 
+ background:url("../resim/ana_orta.png") repeat-y;
+}
+
+.ana-ust
+{
+ width:950;
+ height:10;
+ padding:0 2;
+ background:url("../resim/ana_ust.png") no-repeat;
+}
+
+.ana-alt
+{
+ width:950;
+ height:30;
+ padding:0 2;
+ background:url("../resim/ana_alt.png") no-repeat;
+}
+
+.baslik
+{background:url("../resim/bas.png");height:100;}
+.baslik-orta
+{
+  margin:auto;
+  width:950;  
+  position:relative;
+}
+
+.baslik-logo
+{
+  position:absolute;
+  top:2;
+  left:5;
+  float:left;
+}
+
+.baslik-lisan
+{
+    position:absolute;
+  top:8;
+  left:300;
+  padding:5;
+  font-size:1.1em;
+  color:#fff;
+  font-weight:bold;
+ height:85;
+ vertical-align:middle;
+}
+
+.baslik-lisan p
+{
+  text-align:left;
+ vertical-align:middle;
+}
+
+.orta
+{
+ width:650;
+ float:left;
+   padding:5;
+}
+
+.yan
+{
+  margin-left:22;
+ width:250;
+ float:left;
+}
+
+
+.sayfala
+{
+ padding:1%;
+ text-align:left;
+ border-top:1px solid #EFEFEF;
+ color:#555;
+ font-size:1.2em;
+}
+
+.sayfala a
+{
+  padding:3;
+   margin:1;
+}
+
+.sayfala a:hover
+{
+background:#008aff;
+color:#FFF;
+}
+
+
+
+a,a:hover,textarea,select,.dugme,.menu-dugme,.menu-dugme-uzerinde,div,img
+{
+-webkit-transition: all 200ms linear; /*safari and chrome */
+-moz-transition: all 200ms linear; /* firefox */
+-o-transition: all 200ms linear; /* opera */
+transition: all 200ms linear; 
+}
+
+
+
+.eklenti_ust
+{
+ padding:1; 
+ margin-bottom:10;
+}
+
+.karart
+{background:url("../resim/karart.png");z-index:1;position:absolute;left:0;top:0;width:100%;display:none;}
+.orta_pencere
+{background:#FFF;z-index:2;left:50%;top:0;position:absolute;padding:5;border:14px solid #EFEFEF;display:none;overflow-y:auto;}
+
+
+
+.menu
+{
+  background:url("../resim/menu_arka.png");
+  height:40;
+  position:relative;
+  margin-bottom:30px;
+  padding-top:5;  
+}
+
+.menu .dugmeler
+{
+  width:900;
+ position:relative;
+ 
+}
+
+.menu-ayirac
+{
+ background:url("../resim/menu_ayirac.png") no-repeat;
+ width:1;
+ height:35;
+ float:left;
+}
+.menu .arama
+{
+float:right;
+  padding:2;
+  width:310;
+  height:30;
+  background:url("../resim/arama.png") no-repeat;
+}
+
+.menu .arama-girdi
+{
+  height:28;
+  width:255;
+  float:left;
+}
+
+
+.menu .arama-girdi input 
+{
+  border:0px solid #DDD;
+  background:transparent;
+  height:28;
+  width:240;
+  font-size:1.2em;
+  font-weight:bold;
+  color:#555;
+}
+
+.menu .arama-dugme
+{
+  height:30;
+  width:40;
+  float:left;
+    background:url("../resim/ara.png") no-repeat;
+    float:right;
+}
+
+.menu-dugme,.menu-dugme:hover
+{  
+  font-weight:bold;
+  font-size:1.1em;  
+  padding:10 20;
+  color:#FFF;
+    margin-top:2; 
+  float:left;
+  position:relative;
+  font-family:arista;
+  
+}
+.menu-dugme:hover
+{ 
+  color:557;
+  background:#FFF; 
+  text-decoration:none;
+  
+}
+
+
+
+
+.tablo
+{
+  width:650;
+  border-bottom:1px solid #EFEFEF;
+}
+
+.tablo-baslik
+{
+letter-spacing:0.1ex;
+  padding:3;
+}
+
+.tablo-baslik a
+{
+  color:#557;
+/*     font-family:arista; */
+font-weight:bold;
+  font-size:1.5em;
+}
+
+
+.tablo-resim
+{
+  width:185;
+  height:160;
+  float:left;
+  margin:5;
+overflow:hidden;
+  text-align:left;
+}
+
+.tablo-aciklama
+{
+  float:left;
+overflow:hidden;
+  padding-left:185;
+  width:420;
+  height:150;
+ padding:2; 
+
+}
+
+.tablo-aciklama img
+{
+  width:600;
+}
+
+.tablo-ozellikler
+{
+  padding-left:30;
+ width:650;
+ height:45;
+ background:url("../resim/tablo_ozellik.png") no-repeat;
+  line-height:4;
+  color:#FFF;
+} 
+
+.tablo-ozellikler-paylas
+{
+ float:left;
+ width:142;
+ padding-top:7;
+}
+
+.tablo-ozellikler-paylas a
+{
+margin:2;
+  width:25;
+  height:25;
+  float:left;
+}
+
+.tablo-ozellikler-paylas-facebook
+{
+    background:url("../resim/paylas.png");
+}
+
+.tablo-ozellikler-paylas-begen
+{
+    background:url("../resim/paylas.png") center;
+}
+
+.tablo-ozellikler-paylas-rss
+{
+    background:url("../resim/paylas.png") right ;
+}
+
+
+
+.tablo-ozellikler-begen
+{
+ float:left;
+ width:110;
+}
+
+.tablo-ozellikler-zaman
+{
+ float:left;
+ width:240;
+}
+
+.tablo-ozellikler-devam
+{
+ float:left;
+ width:100;
+ line-height:3;
+}
+
+.tablo-ozellikler-devam a
+{
+
+font-size:1.3em;
+color:#FFF;
+font-weight:bold;
+}
+
+
+.ozellikler
+{position:relative; }
+
+
+.ozellikler .li
+{
+  z-index:1;position:absolute;right:-390;
+  display:none;background:#FFF;border:5px solid #DDD;
+  padding:10;width:350;overflow-y:auto;
+} 
+
+.tablo .li a,.tablo .li a:hover{color:#F00;padding:1;}
+

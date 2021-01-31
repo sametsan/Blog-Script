@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^makale-(.*)$ index.php?s=kayit&url=$1 [L] 
+RewriteRule ^sayfa-(.*)-(.*)$ index.php?s=kayitlar&sayfa=$1&no=$2 [L] 
+RewriteRule ^sayfa-(.*)$ index.php?s=kayitlar&sayfa=$1 [L] 
+RewriteRule ^ara-(.*)$ index.php?s=ara&ara=$1 [L] 
+RewriteRule ^kategori-(.*)$ index.php?baslik_url=$1 [L] 
+RewriteRule (.*)$ $1 [L] 
+

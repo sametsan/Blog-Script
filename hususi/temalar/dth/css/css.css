@@ -1,0 +1,194 @@
+body
+{
+background: url("../resim/arka.png") repeat-x #555; 
+margin : 0 0 0 0;
+color:#555;
+font-family:sans-serif;
+font-size:0.6875em;
+height:100%;
+letter-spacing:0.2ex;
+} 
+
+embed,iframe
+{
+
+}
+
+
+table
+{font-size:0.75em}
+
+form
+{
+  display:inline;
+}
+
+a
+{
+  text-decoration:none;
+  color:#000;  
+  cursor:pointer;
+  
+}
+
+
+a:hover
+{
+  cursor:pointer;
+  text-decoration:underline;
+  color:#F00;
+}
+
+input,textarea,select
+{
+  border:1px solid #BBB;
+padding:3 10;
+margin:1; 
+
+}
+
+
+
+input:focus,textarea:focus,select:focus,input:hover,textarea:hover,select:hover,option:hover,option:focus
+{
+  border:1px solid #DDD;
+padding:3 10;
+margin:1;
+background:#EFEFEF;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius:3px;
+-moz-box-shadow: 0px 0px 4px #000;
+-webkit-box-shadow: 0px 0px 4px #000;
+box-shadow: 0px 0px 4px #000;
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+input[type="submit"],input[type="button"]
+{
+cursor:pointer;
+border:1px solid #BBB;
+border-bottom:1px solid #AAA;
+font-weight:bold;
+background:url("../resim/dugme_arka.png");
+padding:4 9;margin:1; 
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius:3px;
+font-size:1em;
+color:#333;
+}
+.temizle
+{
+clear:both;  
+}
+
+
+
+
+.eklenti{}
+.eklenti h3{border-top:1px solid #555;background:url("../resim/eklenti_baslik.png");padding:7;margin:2 0;font-size:1.3em;color:#FFF;
+   -webkit-border-radius: 7px;
+-moz-border-radius:7px;
+border-radius:7px; 
+
+}
+.eklenti p{margin:0;padding:0 5;}
+.eklenti p li{padding:5;}
+.eklenti-liste{margin:0;padding:1;border-bottom:1px solid #EFEFEF;display:block}
+
+.eklenti_ust{background:#DDD;}
+.eklenti_ust .tablo{background:#FFF;margin:2;width:485;float:left;padding:5;text-align:center;vertical-align:center;}
+.eklenti_ust .tablo h3{color:#F00;}
+.eklenti_ust .tablo img{height:80;}
+
+.giris
+{
+ border:1px solid #DDD;
+background:#EFEFEF;
+padding:5;
+}
+.giris a
+{font-weight:bold;}
+
+.dip
+{
+  width:990;
+  color:#555;
+ padding:5 10;
+ text-align:center;
+ font-weight:bold;
+ color:#FFF;
+   background:url("../resim/arka.png");
+}
+
+.ana
+{
+ width:1000;
+text-align:left;
+background:#FFF;
+border:5px solid #DDD;
+}
+
+.baslik
+{
+ background:url("../resim/baslik.png") no-repeat center ; 
+ height:150;
+  
+}
+.orta
+{
+ width:760;
+ padding:4;
+ float:left;
+}
+
+.yan
+{
+ width:220;
+ padding:5;
+ float:left;
+ 
+
+}
+
+
+.sayfala
+{
+ padding:1%;
+ text-align:left;
+}
+
+.sayfala a
+{
+  padding:3;
+   background:#F00;
+   margin:1;
+   color:#fff;
+}
+
+
+
+a,a:hover,input,textarea,select,.dugme,.menu-dugme,.menu-dugme-uzerinde,div,.arama-girdi,img
+{
+-webkit-transition: all 200ms linear; /*safari and chrome */
+-moz-transition: all 200ms linear; /* firefox */
+-o-transition: all 200ms linear; /* opera */
+transition: all 200ms linear; 
+}
+
+
+
+.eklenti_ust
+{
+ padding:1; 
+ margin-bottom:10;
+}
+
+.karart
+{background:url("../resim/karart.png");z-index:1;position:absolute;left:0;top:0;width:100%;display:none;}
+.orta_pencere
+{background:#FFF;z-index:2;left:50%;top:0;position:absolute;padding:5;border:14px solid #EFEFEF;display:none;overflow-y:auto;}

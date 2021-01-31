@@ -1,0 +1,29 @@
+body
+{
+letter-spacing:0ex;
+ font-size:0.7em; 
+
+}
+
+
+.tablo-baslik a
+{
+font-family:sans-serif;
+}
+
+.tablo-resim img
+{
+text-align:left;
+float:left;
+}
+
+.tablo-aciklama
+{
+width:440;
+}
+
+
+.menu-dugme,.menu-dugme:hover
+{
+  font-family:sans-serif;
+}
